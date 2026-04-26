@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Velmora Themes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      background: black;
+      letter-spacing: 2px;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 50px;
+    }
+    .btn {
+      padding: 12px 25px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: black;
+    }
+  </style>
+</head>
+<body>
+
+<header>VELMORA THEMES</header>
+
+<section class="hero">
+  <h1>Wear Your Vibe</h1>
+  <p>Premium Streetwear Collection</p>
+  <a href="#" class="btn">Shop Now</a>
+</section>
+
+<section class="products">
+  <div class="card">
+    <h3>Black Hoodie</h3>
+    <p>₹1499</p>
+  </div>
+  <div class="card">
+    <h3>Oversized Tee</h3>
+    <p>₹999</p>
+  </div>
+  <div class="card">
+    <h3>Joggers</h3>
+    <p>₹1799</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Velmora Themes | All Rights Reserved
+</footer>
+
+</body>
+</html>
